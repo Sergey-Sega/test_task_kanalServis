@@ -1,0 +1,32 @@
+@import './variables';
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/HelveticaBold.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/HelveticaRegular.ttf');
+  font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/fonts/HelveticaLight.ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+.App {
+  height: 100vh;
+}
+fieldset {
+  border: none;
+  width: fit-content;
+}
